@@ -1,0 +1,605 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Цитра</title>
+	<meta name="description" content="#">
+	<meta name="viewport" content="width=device-width">
+	<link rel="icon" href="images/favicon.png">
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="container flex flex_aic">
+			<button class="menu-btn"><span></span><span></span><span></span></button>
+			<a href="#" class="header__logo"><img src="images/dist/logo.svg" alt=""></a>
+			<nav class="main-menu">
+				<ul class="main-menu__list js-scroll-list">
+					<li><a class="anchor" href="#about">О нас</a></li>
+					<li><a class="anchor" href="#services">Услуги</a></li>
+					<li><a class="anchor" href="#certificates">Лицензии</a></li>
+					<li><a class="anchor" href="#contacts">Контакты</a></li>
+				</ul>
+
+				<a href="#" class="search-link"></a>
+			</nav>
+
+			<div class="header__right">
+				<div class="header-modal">
+					<a href="tel:88007873434" class="phone"><span>8 800 787-34-34</span></a>
+					<button class="btn btn-green" data-fancybox data-src="#call">Заказать звонок</button>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="top-block">
+		<div class="container top-block__wrapper">
+			<div class="top-block__bg"><img src="images/dist/slide1.jpg" alt=""></div>
+
+			<div class="top-block__content">
+				<h1 class="h1">
+					<span><span>Аудит</span> информационной</span><br>
+					<span>безопасности</span>
+				</h1>
+				<p>Комплексный подход при оказании услуг позволяет избавить наших клиентов, среди которых крупнейшие международные компании, от вопросов, связанных с информационной безопасностью.</p>
+				<a href="#" class="btn btn-green">Подробнее</a>
+			</div>
+			
+		</div>
+	</section>
+	
+	<section id="about" class="about scroll-section">
+		<div class="container">
+			<h2 class="h2 sub-title">О НАС</h2>
+
+			<div class="grid col-3 col-md-1">
+				<h3 class="h2">Комплексный подход к <span>безопасности в интернете</span></h3>
+
+				<div class="about__content span-2 span-md-1">
+					<p>Создание узконоправленной компании которая занимаеться только аудитом информационной безопасности,  это в некотором роде тестирование на проникновение с пост оплатой, клиент не платит если мы не находим опасных уязвимостей,  эти уязвимости можно разделить на технические и человеческие (за которые компания аудитор отвественности не несет) в большом проценте случаев проникновение осуществеляеться с использованием социальной инженерии, обман сотрудника компании bad usd и и.т.д. Этот человеческий фактор может произойти даже в очень хорошо технически защищенной компании.</p>
+					<p>Компания орентируеться на Российских юридических лиц, а так же компании дружественных Российской федерации стран, но нашим приорететом являеться отечественный продукт, в дальнейшем разработка отечественной SIEM системы вроде</p>
+
+					<ul class="about__list">
+						<li>
+							<b>1972</b>
+							Сервисов <br>проверено
+						</li>
+						<li>
+							<b>10 000</b>
+							Строк  вредительского <br>кода удалено
+						</li>
+						<li>
+							<b>350</b>
+							Клиентов
+						</li>
+						<li>
+							<b>8 000</b>
+							Брешей <br>безопасности <br>обнаружено
+						</li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="services" class="services scroll-section">
+		<div class="container">
+			<h2 class="h2 sub-title">Услуги</h2>
+
+			<div class="row grid col-2 col-md-1">
+				<div class="services-item services-item_bg-1">
+					<div class="services-item__content">
+						<h3 class="h2">Анализ защищенности web-приложений и сервисов</h3>
+						<p>Независимая оценка безопасности web-приложения, которая позволяет получить полную информацию о найденных уязвимостях, возможных сценариях атак и рекомендации по их устранению.</p>
+						<button type="button" class="btn btn-green" data-src="#service1" data-fancybox>Подробнее</button>
+					</div>
+				</div>
+
+				<div class="services-item services-item_bg-2">
+					<div class="services-item__content">
+						<h3 class="h2">Тестирование на проникновение локальных сетей</h3>
+						<p>Метод оценки безопасности компьютерных систем или сетей, направленный на получение объективной оценки уровня информационной безопасности, а именно обнаружение уязвимостей и слабых мест. Тест на проникновение позволяет понять эффективны ли применяемые средства защиты.</p>
+						<button type="button" class="btn btn-green" data-src="#service1" data-fancybox>Подробнее</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="form-section">
+		<div class="container">
+			<div class="row bg1">
+				<form class="form-section__wrapper container grid col-3 col-md-1 form">
+					<div class="form__text">
+						<h2 class="h2">У вас появились вопросы?</h2>
+						<p>Отправьте нам свою заявку и наши специалисты свяжутся с вами в ближайшее время</p>
+					</div>
+					<div class="form__item">
+						<label class="label">
+							<input type="text" class="input">
+							<span>Ваше имя</span>
+						</label>
+
+						<label class="label">
+							<input type="email" class="input">
+							<span>Электронная почта</span>
+						</label>
+					</div>
+					<div class="form__item">
+						<label class="label">
+							<input type="tel" class="input">
+							<span>Номер телефона</span>
+						</label>
+
+						<button type="submit" class="btn btn-green">Отправить</button>
+						<small>Отправляя данные я даю согласие на их обработку</small>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<section id="certificates" class="certificates scroll-section over-hidden">
+		<div class="container grid col-3 col-md-1">
+			<h2 class="h2">Сертификаты <br>и лицензии</h2>
+
+			<div class="certificates__wrapper span-2 span-md-1">
+
+				<div class="certificates-slider swiper-car-auto swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<a href="images/dist/s1b.png" class="certificates-item" data-fancybox="certificates" data-caption="Лицензия на деятельность по технической защите конфиденциальной информации">
+								<span class="certificates-item__img"><img src="images/dist/s1.png" alt=""></span>
+								Лицензия на деятельность по технической защите конфиденциальной информации
+							</a>
+						</div>
+
+						<div class="swiper-slide">
+							<a href="images/dist/s2.png" class="certificates-item" data-fancybox="certificates" data-caption="Система сертификации средств защиты информации">
+								<span class="certificates-item__img"><img src="images/dist/s2.png" alt=""></span>
+								Система сертификации средств защиты информации
+							</a>
+						</div>
+
+						<div class="swiper-slide">
+							<a href="images/dist/s3.png" class="certificates-item" data-fancybox="certificates" data-caption="Сертификат соответствия 2204">
+								<span class="certificates-item__img"><img src="images/dist/s3.png" alt=""></span>
+								Сертификат соответствия 2204
+							</a>
+						</div>
+
+						<div class="swiper-slide">
+							<a href="images/dist/s1b.png" class="certificates-item" data-fancybox="certificates" data-caption="Лицензия на деятельность по технической защите конфиденциальной информации">
+								<span class="certificates-item__img"><img src="images/dist/s1.png" alt=""></span>
+								Лицензия на деятельность по технической защите конфиденциальной информации
+							</a>
+						</div>
+
+						<div class="swiper-slide">
+							<a href="images/dist/s2.png" class="certificates-item" data-fancybox="certificates" data-caption="Система сертификации средств защиты информации">
+								<span class="certificates-item__img"><img src="images/dist/s2.png" alt=""></span>
+								Система сертификации средств защиты информации
+							</a>
+						</div>
+
+						<div class="swiper-slide">
+							<a href="images/dist/s3.png" class="certificates-item" data-fancybox="certificates" data-caption="Сертификат соответствия 2204">
+								<span class="certificates-item__img"><img src="images/dist/s3.png" alt=""></span>
+								Сертификат соответствия 2204
+							</a>
+						</div>
+					</div>
+
+					<div class="nav-bottom">
+						<div class="swiper-button-prev slider-nav-btn slider-nav-btn-prev"></div>
+						<div class="swiper-button-next slider-nav-btn slider-nav-btn-next"></div>
+					</div>
+					
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="partners">
+		<div class="container grid col-3 col-md-1">
+			<h2 class="h2">С нами <br>сотрудничают</h2>
+
+			<div class="partners__wrapper span-2 span-md-1 grid col-4 col-md-2 col-sm-2">
+
+				<div class="partners-item"><img src="images/dist/partner/l1.svg" alt=""></div>
+				<div class="partners-item"><img src="images/dist/partner/l2.svg" alt=""></div>
+				<div class="partners-item"><img src="images/dist/partner/l3.svg" alt=""></div>
+				<div class="partners-item"><img src="images/dist/partner/l4.svg" alt=""></div>
+				<div class="partners-item"><img src="images/dist/partner/l5.svg" alt=""></div>
+				<div class="partners-item"><img src="images/dist/partner/l6.svg" alt=""></div>
+				<div class="partners-item"><img src="images/dist/partner/l7.svg" alt=""></div>
+				<div class="partners-item"><img src="images/dist/partner/l8.svg" alt=""></div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="news over-hidden">
+		<div class="container">
+			<h2 class="h2">Новости</h2>
+
+			<div class="news__wrapper">
+
+				<div class="news-slider swiper-car-auto swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<a href="#news-1" class="news-item" data-fancybox>
+								<span class="news-item__img"><img src="images/dist/n1.jpg" alt=""></span>
+								Аналитик указал на падение DOGE вопреки поддержке Илона Маска
+							</a>
+						</div>
+
+						<div class="swiper-slide">
+							<a href="#news-1" class="news-item" data-fancybox>
+								<span class="news-item__img"><img src="images/dist/n2.jpg" alt=""></span>
+								Прогноз цены на золото. Пришло ли время закупаться
+							</a>
+						</div>
+
+						<div class="swiper-slide">
+							<a href="#news-1" class="news-item" data-fancybox>
+								<span class="news-item__img"><img src="images/dist/n3.jpg" alt=""></span>
+								Эксперт назвал условия для ралли DOGE
+							</a>
+						</div>
+
+						<div class="swiper-slide">
+							<a href="#news-1" class="news-item" data-fancybox>
+								<span class="news-item__img"><img src="images/dist/n4.jpg" alt=""></span>
+								Эксперт назвал критический уровень поддержки для эфириума
+							</a>
+						</div>
+
+						<div class="swiper-slide">
+							<a href="#news-1" class="news-item" data-fancybox>
+								<span class="news-item__img"><img src="images/dist/n3.jpg" alt=""></span>
+								Прогноз цены на золото. Пришло ли время закупаться
+							</a>
+						</div>
+
+						<div class="swiper-slide">
+							<a href="#news-1" class="news-item" data-fancybox>
+								<span class="news-item__img"><img src="images/dist/n1.jpg" alt=""></span>
+								Аналитик указал на падение DOGE вопреки поддержке Илона Маска
+							</a>
+						</div>
+
+						<div class="swiper-slide">
+							<a href="#news-1" class="news-item" data-fancybox>
+								<span class="news-item__img"><img src="images/dist/n2.jpg" alt=""></span>
+								Прогноз цены на золото. Пришло ли время закупаться
+							</a>
+						</div>
+
+						<div class="swiper-slide">
+							<a href="#news-1" class="news-item" data-fancybox>
+								<span class="news-item__img"><img src="images/dist/n3.jpg" alt=""></span>
+								Эксперт назвал условия для ралли DOGE
+							</a>
+						</div>
+
+						<div class="swiper-slide">
+							<a href="#news-1" class="news-item" data-fancybox>
+								<span class="news-item__img"><img src="images/dist/n4.jpg" alt=""></span>
+								Эксперт назвал критический уровень поддержки для эфириума
+							</a>
+						</div>
+					</div>
+
+					<div class="nav-top">
+						<div class="swiper-button-prev slider-nav-btn slider-nav-btn-prev"></div>
+						<div class="swiper-button-next slider-nav-btn slider-nav-btn-next"></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="form-section">
+		<div class="container">
+			<div class="row">
+				<form class="form-section__wrapper container grid col-3 col-md-1 form">
+					<div class="form__text">
+						<h2 class="h2 mb-10">Связаться с нами</h2>
+						<p><b>Отправьте нам свои контакты и мы вам позвоним в течении 15 минут</b></p>
+					</div>
+					<div class="form__item">
+						<label class="label">
+							<input type="text" class="input">
+							<span>Ваше имя</span>
+						</label>
+
+						<label class="label">
+							<input type="email" class="input">
+							<span>Электронная почта</span>
+						</label>
+					</div>
+					<div class="form__item">
+						<label class="label">
+							<input type="tel" class="input">
+							<span>Номер телефона</span>
+						</label>
+
+						<button type="submit" class="btn btn-green">Отправить</button>
+						<small>Отправляя данные я даю согласие на их обработку</small>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<section id="contacts" class="contacts scroll-section">
+		<div class="map">
+			<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4516ce360086f3290eee8267daaea06e3e97a50d4899615b106c8b286b0bee06&amp;width=100%25&amp;height=720&amp;lang=ru_RU&amp;scroll=false"></script>
+		</div>
+		<div class="container">
+			<div class="contacts__wrapper">
+				<h2 class="h2 sub-title">Как с нами связаться</h2>
+				<h3 class="h2">Контакты</h3>
+
+				<select class="select">
+					<option value="1">Название отдела</option>
+					<option value="2">Название отдела</option>
+					<option value="3">Название отдела</option>
+				</select>
+
+				<h3 class="h3">Адрес</h3>
+				<div class="contacts-item">
+					<div class="marker">057642, Москва <br>Староконюшенный переулок, 61</div>
+				</div>
+				<h3 class="h3">ТЕЛЕФОН</h3>
+				<div class="contacts-item">
+					<a href="tel:88007873434" class="phone">8 800 787-34-34</a>
+				</div>
+				<h3 class="h3">Электронная почта</h3>
+				<div class="contacts-item">
+					<a href="mailto:information@citra.ru" class="email">information@citra.ru</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container grid col-4 col-md-2">
+			<div class="footer__left span-3 span-md-1">
+				<div class="footer__neme">ООО «Цитра», 2022</div>
+				Лицензия ФСТЭК ТКЗИ №12312331
+			</div>
+			<div class="footer__right">
+				Работает на
+				<div class="flex flex_aic">
+					<img src="images/dist/logo-bitrix.svg" alt="">
+
+					<a href="#" class="dev" target="_blank"><img src="images/dist/dev.svg" alt=""></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div id="call" class="popup popup-call">
+		<button type="button" class="btn-close btn-close_top" data-fancybox-close></button>
+
+		<div class="popup-call__form"><!-- После отправки формы добавить класс none -->
+			<h3 class="h2">Заказать звонок</h3>
+			<p>Отправьте нам свои контакты и мы вам <br>позвоним в течении 15 минут</p>
+
+			<form action="#">
+				<label class="label">
+					<input type="text" class="input">
+					<span>Ваше имя</span>
+				</label>
+
+				<label class="label">
+					<input type="email" class="input">
+					<span>Электронная почта</span>
+				</label>
+
+				<label class="label">
+					<input type="tel" class="input">
+					<span>Номер телефона</span>
+				</label>
+
+				<button type="submit" class="btn btn-green">Отправить</button>
+				<small>Отправляя данные я даю согласие на их обработку</small>
+			</form>
+		</div>
+
+		<div class="popup-call__alert"><!-- После отправки формы добавить класс active -->
+			<img src="images/dist/icon/check.svg" alt="">
+			<h3 class="h2">Благодарим! <br>Ваша заявка успешно отправлена</h3>
+		</div>
+		
+	</div>
+
+	<div id="service1" class="popup popup-service container">
+		<button type="button" class="btn-close btn-close_top" data-fancybox-close></button>
+
+		<div class="grid col-12 col-md-1 mb-60">
+			<h2 class="h2 span-5 span-md-1">Анализ защищенности <br>web-приложений <br>и сервисов</h2>
+
+			<div class="span-7 span-md-1">
+				<p>Анализ защищенности web-приложений — независимая оценка безопасности web-приложения, которая позволяет получить полную информацию о найденных уязвимостях, возможных сценариях атак и рекомендации по их устранению.</p>
+				<p>Анализ защищенности web-приложений необходим на каждой стадии жизненного цикла (определение требований, проектирование, разработка, внедрение, поддержка)</p>
+				<p>При выполнении анализа защищенности web-приложений мы руководствуемся международной методологией OWASP Testing Guide, которая включает практику по проведению тестирования на проникновение web приложений.</p>
+			</div>
+
+		</div>
+
+		<h3>
+			Самые <span>опасные уязвимости</span> <br>web приложений <small>(по версии OWASP)</small>
+		</h3>
+
+		<ol class="ol-castom grid col-6 col-md-3 col-sm-2 mb-60">
+			<li>Внедрение кода</li>
+			<li>Некорректная аутентификация и управление сессией</li>
+			<li>Межсайтовый скриптинг</li>
+			<li>Нарушение контроля доступа</li>
+			<li>Небезопасная конфигурация</li>
+			<li>Утечка чувствительных данных</li>
+			<li>Недостаточная защита от атак</li>
+			<li>Подделка межсайтовых запросов</li>
+			<li>Использование компонентов с известными уязвимостями</li>
+			<li>Незащищенный API</li>
+		</ol>
+
+		<h3>Этапы аудита безопасности web-приложений</h3>
+
+		<ol class="ol-castom-2 grid col-5 col-md-3 col-sm-2 mb-60">
+			<li>Согласование и утверждение условий аудита</li>
+			<li>Сбор информации</li>
+			<li>Выявление web-окружения</li>
+			<li>Определение платформы и типа CMS</li>
+			<li>Сканирование портов</li>
+			<li>Анализ данных</li>
+			<li>Определение векторов атаки</li>
+			<li>Эксплуатация уязвимостей</li>
+			<li>Нагрузочное тестирование</li>
+		</ol>
+
+		<div class="grid col-12 col-md-1 mb-60">
+			<h2 class="h2 span-5 span-md-1">Формирование отчета</h2>
+
+			<div class="span-7 span-md-1">
+				<p>Отчет, предоставляемый Заказчику по результатам проведения анализа защищенности web-приложений, содержит детальное описание проведенных работ, все выявленные уязвимости приложения и способы их реализации. Также отчет содержит конкретные рекомендации по устранению данных уязвимостей.</p>
+				<p>Перед проведением анализа защищенности web-приложений, Исполнитель и Заказчик подписывают соглашение о неразглашении. Данный документ гарантирует конфиденциальность информации полученной в ходе аудита.</p>
+			</div>
+
+		</div>
+
+		<section class="form-section">
+			<div class="container">
+				<div class="row">
+					<form class="form-section__wrapper container grid col-3 col-md-1 form">
+						<div class="form__text">
+							<h2 class="h2 mb-10">Связаться с нами</h2>
+							<p><b>Отправьте нам свои контакты и мы вам позвоним в течении 15 минут</b></p>
+						</div>
+						<div class="form__item">
+							<label class="label">
+								<input type="text" class="input">
+								<span>Ваше имя</span>
+							</label>
+	
+							<label class="label">
+								<input type="email" class="input">
+								<span>Электронная почта</span>
+							</label>
+						</div>
+						<div class="form__item">
+							<label class="label">
+								<input type="tel" class="input">
+								<span>Номер телефона</span>
+							</label>
+	
+							<button type="submit" class="btn btn-green">Отправить</button>
+							<small>Отправляя данные я даю согласие на их обработку</small>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<h4>Другие Услуги</h4>
+
+		<div class="popup-service__more">
+			<h3 class="h2">Тестирование <br>на проникновение <br>локальных сетей</h3>
+			<p>Метод оценки безопасности компьютерных систем или сетей, направленный на получение объективной оценки уровня информационной безопасности, а именно обнаружение уязвимостей и слабых мест. Тест на проникновение позволяет понять эффективны ли применяемые средства защиты.</p>
+			<button type="button" class="btn btn-green" data-src="#service1" data-fancybox="">Подробнее</button>
+		</div>
+
+		<div class="news-popup__footer">
+			<button type="button" class="btn-close btn-close" data-fancybox-close></button>
+		</div>
+	</div>
+
+	<div id="news-1" class="popup news-popup">
+		<header class="news-popup__header">
+			<div class="news-popup__data">12 марта 2022</div>
+			<button type="button" class="btn-close btn-close_top" data-fancybox-close></button>
+		</header>
+
+		<div class="news-popup__img"><img src="images/dist/full.jpg" alt=""></div>
+
+		<h2>Аналитик указал на падение DOGE вопреки поддержке Илона Маска</h2>
+
+		<p><b>Мем-коину не помог даже тот факт, что Маск предложил принимать DOGE в качестве оплаты за специальные сервисы Twitter</b></p>
+
+		<p>Альткоин DOGE начал неделю с падения на 9,5% до 0,14 за монету. Аналитик Currency.com Ракеш Упадхьяи уверен, что такое снижение вопреки поддержке главного фаната мем-коина — главы Tesla Илона Маска — сигнализирует о том, что его мнение скоро перестанет влиять на цену этой криптовалюты.</p>
+
+		<div class="news-popup__img"><img src="images/dist/full2.jpg" alt=""></div>
+
+		<p>На прошлой неделе Илон Маск стал крупнейшим акционером Twitter после приобретения 9,2-процентной доли в соцсети. 11 апреля стало известно, что в состав директоров он не войдет, и акции Twitter снизились в цене на 1% на открытии торгов в США.</p>
+		<p>Упал и DOGE, хотя Маск сразу после известия о покупке акций предложил принимать догикоин в качестве оплаты за специальные сервисы Twitter.</p>
+
+		<div class="news-popup-more">
+
+			<div class="news-slider swiper-car-auto swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<a href="#news-1" class="news-item" data-fancybox>
+							<span class="news-item__img"><img src="images/dist/n1.jpg" alt=""></span>
+							Аналитик указал на падение DOGE вопреки поддержке Илона Маска
+						</a>
+					</div>
+
+					<div class="swiper-slide">
+						<a href="#news-1" class="news-item" data-fancybox>
+							<span class="news-item__img"><img src="images/dist/n2.jpg" alt=""></span>
+							Прогноз цены на золото. Пришло ли время закупаться
+						</a>
+					</div>
+
+					<div class="swiper-slide">
+						<a href="#news-1" class="news-item" data-fancybox>
+							<span class="news-item__img"><img src="images/dist/n3.jpg" alt=""></span>
+							Эксперт назвал условия для ралли DOGE
+						</a>
+					</div>
+
+					<div class="swiper-slide">
+						<a href="#news-1" class="news-item" data-fancybox>
+							<span class="news-item__img"><img src="images/dist/n4.jpg" alt=""></span>
+							Эксперт назвал критический уровень поддержки для эфириума
+						</a>
+					</div>
+
+				</div>
+
+				<div class="nav-bottom">
+					<div class="swiper-button-prev slider-nav-btn slider-nav-btn-prev"></div>
+					<div class="swiper-button-next slider-nav-btn slider-nav-btn-next"></div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="news-popup__footer">
+			<button type="button" class="btn-close btn-close" data-fancybox-close></button>
+		</div>
+	</div>
+	
+	<script src="vendor/swiper-bundle.min.js"></script>
+	<script src="vendor/fancybox.umd.js"></script>
+
+	<script src="vendor/jquery.min.js"></script>
+
+	<script src="js/app.min.js"></script>
+
+</body>
+</html>
